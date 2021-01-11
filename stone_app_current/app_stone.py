@@ -7,7 +7,7 @@ Created on Thu Aug  6 01:38:20 2020
 
 @author: pranatagrawal
 """
-path = "/home/pi/Downloads/Inventory/"
+
 
 import tkinter as tk
 from tkinter import ttk
@@ -16,6 +16,8 @@ from stone_frames import HelloWorld, Stone, Match, Stone_cut
 from stone_frames.untitled_folder_1 import Discription
 from xlrd import open_workbook
 from pyexcel_ods import get_data
+import os
+path = os.getcwd() + "/Inventory/"
 
 
 def main():
