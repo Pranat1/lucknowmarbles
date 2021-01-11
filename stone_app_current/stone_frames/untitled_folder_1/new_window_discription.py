@@ -15,7 +15,7 @@ from pyexcel_ods import get_data
 import os
 from collections import OrderedDict
 #path = "/home/pi/Desktop/my_drive/Lucknow_Marbles/stone_app_current/"
-path =  "/home/pi/Downloads/Inventory/"
+path = os.getcwd() + "/Inventory/"
 
 
 class Discription(ttk.Frame):
