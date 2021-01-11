@@ -22,8 +22,8 @@ Created on Sun Jul 26 03:18:54 2020
 @author: pranatagrawal
 """
 #path = "/home/pi/Desktop/my_drive/Lucknow_Marbles/stone_app_current/"
-path =  "/home/pi/Downloads/Inventory/"
-from PIL import Image, ImageTk
+path = os.getcwd() + "/Inventory/"
+
 from xlrd import open_workbook
 from PIL import Image, ImageTk
 from stone_frames.untitled_folder_1 import Discription
